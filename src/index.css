@@ -1,0 +1,12 @@
+/* YourComponent.css */
+h5,
+h2,
+h3,
+h4,
+h6,
+span,
+a {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

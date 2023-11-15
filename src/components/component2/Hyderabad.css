@@ -1,0 +1,20 @@
+/* Hyderabad.css */
+
+.projects-container {
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .highlighted {
+    color: yellow;
+    font-weight: bold;
+  }
+  
