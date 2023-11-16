@@ -5,8 +5,7 @@ h3,
 h4,
 h6,
 span,
+h1,
 a {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  overflow-y: hidden; /* or overflow-y: initial; */
 }

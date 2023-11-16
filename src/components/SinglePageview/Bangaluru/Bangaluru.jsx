@@ -1,19 +1,17 @@
 import React from 'react';
-import './Single.css';
-import img4 from '../../../public/wht2.jpeg';
-import img5 from '../../../public/wht4.jpeg';
-import img6 from '../../../public/wht3.jpeg';
-import img1 from '../../../public/wht1.jpeg';
-import img55 from '../../../public/wht5.jpeg';
-import img66 from '../../../public/wht6.jpeg';
-
-const Single = () => {
+import './Bangaluru.css';
+import img4 from '../../../../public/wht2.jpeg';
+import img5 from '../../../../public/wht4.jpeg';
+import img1 from '../../../../public/wht1.jpeg';
+import img55 from '../../../../public/wht5.jpeg';
+import img66 from '../../../../public/wht6.jpeg';
+const Bangaluru = () => {
   return (
     <div className='container'>
       <div>
-        <h1 className='head mt-5'>Megakit. Hyderabad</h1>
+        <h1 className='head mt-5'>Megakit. Bangalore</h1>
         <div className='ig'>
-          <img src={img4} alt="Image 1" />
+          <img src={img66} alt="Image 1" />
         </div>
       </div>
       <div>
@@ -59,7 +57,7 @@ Club House :77850sft<br/>
 
       <div className='ig'>
         <h1 className='head'>Apartment1</h1>
-        <img src={img55} alt="Image 3" />
+        <img src={img4} alt="Image 3" />
       </div>
       <div className='ig'>
         <h1 className='head'>Apartment2</h1>
@@ -88,4 +86,4 @@ Club House :77850sft<br/>
   );
 };
 
-export default Single;
+export default Bangaluru;

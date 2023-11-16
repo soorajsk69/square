@@ -11,8 +11,8 @@ import Footer from './components/Footer/Footer';
 import CustomAlert from './components/CustomAlert/CustomAlert';
 import Hydrabad from './components/component2/Hydrabad';
 import HydraFilter from './components/component2/HyderaCard/HydraFilter';
-import { Route, Routes } from 'react-router-dom'
 import Single from './components/SinglePageview/Single';
+import Bangaluru from './components/SinglePageview/Bangaluru/Bangaluru';
 
 
 
@@ -33,6 +33,7 @@ function App() {
       <Form />
       <Footer/>
       <Single/>
+      <Bangaluru/>
     </>
   )
 }
